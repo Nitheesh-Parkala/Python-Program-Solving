@@ -15,6 +15,7 @@ print("==============================")
 #8. decrementing loops.
 n=int(input("Enter a Number: "))
 for i in range(1,n+1):
+    #  for j in range(n - i + 1): This also possible
     for j in range(n,i-1,-1): #means n=4 ,i=1-1, if n>i then it should print * after that step -1 means n will become n=3. it will keep on going until n will become zero.
         print("*",end=" ")
     print()
