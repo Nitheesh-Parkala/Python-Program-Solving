@@ -1,5 +1,5 @@
 def minium(l):
-   min=l[0]
+   min=21467438
    minIndex=-1
    for i in range(len(l)):
       if min>l[i]:
